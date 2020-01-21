@@ -1,5 +1,5 @@
-var myCitation="aprés plusieurs fromations DEVELOPPEUR WEB je recherche un poste qui me permettra de continuer"+
- "mon évolution et d'exprimer ma curiosité pour les nouvelles technologie";
+var myCitation="aprés plusieurs fromations DEVELOPPEUR WEB je recherche un poste qui me permettra de continuer "+
+ "mon évolution et d'exprimer ma curiositée pour les nouvelles technologies";
 var myArray=myCitation.split("");
 var timeLooper;
 function loop(){
@@ -8,6 +8,6 @@ function loop(){
     }else{
         clearTimeout(timeLooper);
     }
-    timeLopper=setTimeout('loop()',70);
-}
+    timeLooper=setTimeout('loop()',70);
+};
 loop();

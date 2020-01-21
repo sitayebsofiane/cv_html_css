@@ -1,5 +1,6 @@
 body{
     background-color: rgb(153, 152, 122);
+    margin: auto;
 }
 .coco{
  
@@ -9,9 +10,9 @@ body{
     min-height: 100vh;
     width:25%;
     background-color: rgb(241, 234, 241);
-    border: red solid 1px;
+    border:rgb(241, 234, 241) solid 1px;
 }
-#formation{
+#center{
     text-align: center;
     text-decoration: underline;
     color: aquamarine;
