@@ -5,7 +5,28 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="style.css" />
+        <style> 
+            body{
+                background-color: rgb(153, 152, 122);
+                margin: auto;
+            }
+            .coco{
+            
+                text-align: center;
+            }
+            #left{
+                min-height: 100vh;
+                width:25%;
+                background-color: rgb(241, 234, 241);
+                border:rgb(241, 234, 241) solid 1px;
+            }
+            #center{
+                text-align: center;
+                text-decoration: underline;
+                color: aquamarine;
+            }
+
+        </style>
         <title>CV</title>
 </head>
 <body>
@@ -13,11 +34,11 @@
     <div class="container-fluid">
         <section class="row">
             <aside id ="left" class="col-md-3 col-xs-3 ">
-                <img src="photo.jpg" width="50%" height="50%">
+                <img src="photo.jpg" width="50%" height="50%" alt="photo de profil">
                 <div>
                     <adresse> adresse:Roubaix</adresse>
-                    <p> <a href="mailto:sitayebsofiane51@gmail.com">Envoyer l'email a sitayebsofiane51@gmail.com</a><br>
-                    Tel: 06.50.92.28.97</p>
+                    <p>sitayebsofiane51@gmail.com<br>
+                    Tel: 06.50.92.28.97<br>permis B + Voiture</p>
                 </div>
                 <div>
                     <h4> Competences:</h4>
@@ -47,8 +68,6 @@
                 <div>
                     <h4> Interêts:</h4>
                    <ul>
-                   <li> natation</li>
-                   <li> art martiaux</li>
                    <li> cyclisme</li>
                    <li> musique classique</li>
                     </ul>
@@ -74,7 +93,7 @@
                     <li>mars 2018:creation du jeu de societe puissance4 dans le cadre de l'aprentissage java 
                         <a href="https://github.com/sitayebsofiane/PROJET_puissance4" target="_blank">lien github</a>
                     </li>
-                    <li>2013-2018 vigile a l'hopitale de tourcoing</li>
+                    <li>2013-2018 service d'assistance a personnes à l'hopital de tourcoing</li>
                    
 
                 </ul>
@@ -82,6 +101,20 @@
             </article >
         </section>
     </div>
-    <script src="script.js"></script>
+    <script >
+       var myCitation="aprés plusieurs fromations DEVELOPPEUR WEB je recherche un poste qui me permettra de continuer "+
+        "mon évolution et d'exprimer ma curiositée pour les nouvelles technologies";
+       var myArray=myCitation.split("");
+       var timeLooper;
+       function loop(){
+           if(myArray.length>0){
+               document.getElementById("citation").innerHTML +=myArray.shift();
+           }else{
+               clearTimeout(timeLooper);
+           }
+           timeLooper=setTimeout('loop()',70);
+       };
+       loop();
+    </script>
 </body>
 </html>
