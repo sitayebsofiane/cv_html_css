@@ -9,6 +9,7 @@ body{
     background-color: rgb(241, 234, 241);
     border:rgb(241, 234, 241) solid 1px;
     border-radius: 1% 1%;
+   
 }
 .center{
     text-align: center;
@@ -24,4 +25,7 @@ body{
 }
 .motivation{
     font-size: 20px;
+}
+a {
+    cursor: crosshair;
 }
