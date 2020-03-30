@@ -29,3 +29,16 @@ body{
 a {
     cursor: crosshair;
 }
+.circle{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    position: relative;
+    left: 0px;
+    width: 100px;
+    margin:auto;
+}
+.circle > svg {
+    display: block;
+    margin: auto;
+  
+}
