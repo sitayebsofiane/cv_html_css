@@ -27,3 +27,7 @@ body{
 a:link{
     text-decoration:none;
 }
+i{
+    border: 10px solid gray;
+    background-color: gray;
+}
