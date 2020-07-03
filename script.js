@@ -1,4 +1,4 @@
-var myCitation="Pationné d'informatique et de nouvelles technologies depuis toujours, le monde du web "+
+var myCitation="Passionné d'informatique et de nouvelles technologies depuis toujours, le monde du web "+
 "est mon domaine de prédilection.Autodidacte, curieux et rigoureux, je m'adapte en toute circonstance.Afin de valider ma Licence "+
 "je suis à la recherche d'un stage entre 4 et 6 mois.";
 var myArray=myCitation.split("");
